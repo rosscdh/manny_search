@@ -39,6 +39,13 @@ Installation
 3. copy the product and brand table to the product app
 4. manage.py rebuild_index -v  # to repopulate elasticsearch with your data
 
+** elastic search **
+
+1. ./manage.py to see a list of commands available
+2. ./manage.py rebuild_index to rebuild the elastic search data
+3. ./manage.py update_index to update the elastic search data
+4. when you modify items in the /admin system it will automatically update/add/delete etc the items from elasticsearch
+
 ** Extras **
 
 1. Ask ross to talk about postgres HSTORE
