@@ -1,0 +1,9 @@
+Django==1.7
+Werkzeug==0.9.6
+django-crispy-forms==1.4.0
+django-extensions==1.4.0
+django-haystack==2.3.1
+-e git+https://github.com/rosscdh/django-jsonfield.git@a08821100651130cc9f58ccd22ffb71c2658eabd#egg=django_jsonfield-origin/lawpal
+django-pipeline==1.3.25
+djangorestframework==2.4.3
+elasticsearch==1.2.0

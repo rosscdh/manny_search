@@ -1,0 +1,22 @@
+{% extends 'product/base.html' %}{% load compressed crispy_forms_tags %}
+
+
+{% block content %}
+
+<div id="product-list" class="row"></div>
+
+{% for o in object_list %}
+{{o}}
+{% endfor %}
+
+{% endblock %}
+
+{% block js %}
+<script>
+'use strict';
+
+</script>
+
+{% compressed_js 'product_list' %}
+
+{% endblock js %}
